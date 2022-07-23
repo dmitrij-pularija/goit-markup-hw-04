@@ -137,18 +137,9 @@ img {
 .contacts-top-link-icon {
     margin-right: 10px;
 }
-
-/*
-.contacts-top-link::before {
-    display: inline-block;
-    content: '';
-    width: 10px;
-    height: 16px;
-    margin-right: 10px;
-    background-image: url(../images/smartphone.svg);
-    background-size: contain;
+.contacts-top-link-icon:hover {
+    fill: var(--hover-color);
 }
-*/
 .contacts-top-link:hover,
 .contacts-top-link:focus {
     color: var(--hover-color);
