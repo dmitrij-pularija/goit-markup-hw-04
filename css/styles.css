@@ -143,6 +143,7 @@ img {
 .contacts-top-link:hover,
 .contacts-top-link:focus {
     color: var(--hover-color);
+    fill: var(--hover-color);
 }
 
 /* portfolio styles */
