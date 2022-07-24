@@ -138,9 +138,7 @@ img {
     margin-right: 10px;
 
 }
-.contacts-top-link-icon:hover {
-    color: var(--hover-color);
-}
+
 .contacts-top-link:hover,
 .contacts-top-link:focus {
     color: var(--hover-color);
