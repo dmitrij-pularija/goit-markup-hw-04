@@ -141,7 +141,7 @@ img {
     fill: #2196F3;
 }
 .contacts-top-link:hover,
-.contacts-top-link:focus {
+.contacts-top-link:focus contacts-top-link-icon {
     color: var(--hover-color);
     fill: var(--hover-color);
 }
