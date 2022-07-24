@@ -136,12 +136,14 @@ img {
 }
 .contacts-top-link-icon {
     margin-right: 10px;
+    fill: #2196F3;
+
 }
 .contacts-top-link-icon:hover {
     fill: #2196F3;
 }
 .contacts-top-link:hover,
-.contacts-top-link:focus contacts-top-link-icon {
+.contacts-top-link:focus {
     color: var(--hover-color);
     fill: var(--hover-color);
 }
