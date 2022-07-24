@@ -140,6 +140,8 @@ img {
 }
 
 .contacts-top-link:hover,
+.contacts-top-link:focus,
+.contacts-top-link-icon:hover,
 .contacts-top-link:focus {
     color: var(--hover-color);
 }
