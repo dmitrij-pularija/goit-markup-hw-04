@@ -133,16 +133,18 @@ img {
     letter-spacing: 0.02em;
     text-decoration: none;
     color: var(--simple-text-color);
-
-}
-.contacts-top-link-icon {
-    margin-right: 10px;
-    color: currentColor;
 }
 
 .contacts-top-link:hover,
 .contacts-top-link:focus {
     color: var(--hover-color);
+}
+
+.contacts-top-link-icon {
+    margin-right: 10px;
+    align-content: center;
+    vertical-align: middle;
+    fill: currentColor;
 }
 
 /* portfolio styles */
@@ -243,6 +245,7 @@ img {
     color: var(--simple-text-color);
 }
 
+
 /* footer */
 .footer-styles {
     padding-top: 60px;
@@ -250,9 +253,16 @@ img {
     background-color: var(--background-footer-color);
 }
 
+.footer-item {
+    display: flex;
+}
+
+.contacts-bottom-box {
+    display: block;
+}
+
 .address {
     margin-top: 20px;
-
 }
 
 
@@ -286,6 +296,49 @@ img {
     color: var(--hover-color);
 }
 
+.social {
+    margin-left: 70px;
+}
+
+.social-heder {
+    margin-top: 12px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--background-color);
+}
+
+.social-ul {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    width: 206px;
+}
+
+.social-button {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    border-style: hidden;
+    cursor: pointer;
+    color: var(--background-color);
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.social-button:hover,
+.social-button:focus {
+    background: var(--hover-color);
+    color: var(--background-color);
+}
+
+.social-icon {
+    align-content: center;
+    vertical-align: middle;
+    fill: currentColor;
+}
+
 /* index styles */
 .order {
     height: 600px;
@@ -296,13 +349,11 @@ img {
     padding-bottom: 200px;
     background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0)), url(../images/bgimg.jpg);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     background-position: center;
+    background-color: var(--background-footer-color);
 }
-.hero {
-    height: 600px;
-    background-color: #C4C4C4;
-}
+
 .header {
     max-width: 700px;
     font-weight: 900;
@@ -346,6 +397,7 @@ img {
     max-width: 270px;
 
 }
+
 .feature::before {
     display: block;
     content: '';
@@ -357,15 +409,19 @@ img {
     background-position: center;
     border-radius: 4px;
 }
+
 .feature:nth-child(1)::before {
     background-image: url(../images/antenna.svg);
 }
+
 .feature:nth-child(2)::before {
     background-image: url(../images/clock.svg);
 }
+
 .feature:nth-child(3)::before {
     background-image: url(../images/diagram.svg);
 }
+
 .feature:nth-child(4)::before {
     background-image: url(../images/astronaut.svg);
 }
@@ -450,4 +506,78 @@ img {
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--simple-text-color);
+}
+
+.member-social {
+    margin-top: 16px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    justify-content: space-between;
+    width: 206px;
+}
+
+.member-social-button {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    border-style: hidden;
+    cursor: pointer;
+    color: #AFB1B8;
+    background: var(--background-color);
+}
+
+.member-social-button:hover,
+.member-social-button:focus {
+    color: var(--background-color);
+    background: var(--hover-color);
+}
+
+.member-social-icon {
+    align-content: center;
+    vertical-align: middle;
+    fill: currentColor;
+}
+
+.client-heder {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--header-text-color);
+}
+
+.client-ul {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.client-button {
+    width: 170px;
+    height: 92px;
+    padding: 0;
+    cursor: pointer;
+    color: #AFB1B8;
+    background-color: var(--background-color);
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+}
+
+.client-button:hover,
+.client-button:focus {
+    color: var(--hover-color);
+    border-color: var(--hover-color);
+}
+
+.client-icon {
+    align-content: center;
+    vertical-align: middle;
+    fill: currentColor;
+}
+
+.client-icon:hover,
+.client-icon:focus {
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
